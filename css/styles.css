@@ -59,7 +59,7 @@ ol {
 
 .button-filter:hover,
 .button-filter:focus {
-  background: var(--brand-color);
+  background-color: var(--brand-color);
   color: var(--color-add-hd);
 }
 
@@ -126,12 +126,12 @@ ol {
 }
 
 .header {
-  background: var(--bg-main-color);
+  background-color: var(--bg-main-color);
   border-bottom: 1px solid #ececec;
 }
 
 .hero {
-  background: var(--bg-add-color);
+  background-color: var(--bg-add-color);
 }
 
 .index-hero {
@@ -145,7 +145,7 @@ ol {
 }
 
 .button-hero {
-  background: var(--brand-color);
+  background-color: var(--brand-color);
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
@@ -155,7 +155,7 @@ ol {
 }
 
 .about {
-  background: var(--bg-main-color);
+  background-color: var(--bg-main-color);
 }
 
 .about-heading-specifity {
@@ -184,7 +184,7 @@ ol {
 }
 
 .team {
-  background: #f5f4fa;
+  background-color: #f5f4fa;
 }
 
 .team-heading {
@@ -218,7 +218,7 @@ ol {
 }
 
 .portfolio {
-  background: var(--bg-main-color);
+  background-color: var(--bg-main-color);
 }
 
 .portfolio-heading {
