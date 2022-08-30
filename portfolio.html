@@ -55,17 +55,29 @@
         <div class="container">
           <h1 class="hidden">Приклади робіт</h1>
           <ul class="list button">
-            <li><button type="button" class="button-filter">Усі</button></li>
-            <li><button type="button" class="button-filter">Веб-сайти</button></li>
-            <li><button type="button" class="button-filter">Додатки</button></li>
-            <li><button type="button" class="button-filter">Дизайн</button></li>
-            <li><button type="button" class="button-filter">Маркетинг</button></li>
+            <li class="list-button-item">
+              <button type="button" class="button-filter">Усі</button>
+            </li>
+            <li class="list-button-item">
+              <button type="button" class="button-filter">Веб-сайти</button>
+            </li>
+            <li class="list-button-item">
+              <button type="button" class="button-filter">Додатки</button>
+            </li>
+            <li class="list-button-item">
+              <button type="button" class="button-filter">Дизайн</button>
+            </li>
+            <li class="list-button-item">
+              <button type="button" class="button-filter">Маркетинг</button>
+            </li>
           </ul>
           <ul class="list samples">
             <li class="list-portfolio-item">
               <img src="./images/work-sample-1.jpg" alt="Технокряк" width="370" height="294" />
-              <h2 class="portfolio-heading">Технокряк</h2>
-              <p class="portfolio-text">Веб-сайт</p>
+              <div class="portfolio-card">
+                <h2 class="portfolio-heading">Технокряк</h2>
+                <p class="portfolio-text">Веб-сайт</p>
+              </div>
             </li>
             <li class="list-portfolio-item">
               <img
@@ -74,8 +86,10 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-heading">Постер New Orlean vs Golden Star</h2>
-              <p class="portfolio-text">Дизайн</p>
+              <div class="portfolio-card">
+                <h2 class="portfolio-heading">Постер New Orlean vs Golden Star</h2>
+                <p class="portfolio-text">Дизайн</p>
+              </div>
             </li>
             <li class="list-portfolio-item">
               <img
@@ -84,19 +98,25 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-heading">Ресторан Seafood</h2>
-              <p class="portfolio-text">Додаток</p>
+              <div class="portfolio-card">
+                <h2 class="portfolio-heading">Ресторан Seafood</h2>
+                <p class="portfolio-text">Додаток</p>
+              </div>
             </li>
             <li class="list-portfolio-item">
               <img src="./images/work-sample-4.jpg" alt="Проєкт Prime" width="370" height="294" />
-              <h2 class="portfolio-heading">Проєкт Prime</h2>
-              <p class="portfolio-text">Маркетинг</p>
+              <div class="portfolio-card">
+                <h2 class="portfolio-heading">Проєкт Prime</h2>
+                <p class="portfolio-text">Маркетинг</p>
+              </div>
             </li>
 
             <li class="list-portfolio-item">
               <img src="./images/work-sample-5.jpg" alt="Проєкт Boxes" width="370" height="294" />
-              <h2 class="portfolio-heading">Проєкт Boxes</h2>
-              <p class="portfolio-text">Додаток</p>
+              <div class="portfolio-card">
+                <h2 class="portfolio-heading">Проєкт Boxes</h2>
+                <p class="portfolio-text">Додаток</p>
+              </div>
             </li>
 
             <li class="list-portfolio-item">
@@ -106,8 +126,10 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-heading">Inspiration has no Borders</h2>
-              <p class="portfolio-text">Веб-сайт</p>
+              <div class="portfolio-card">
+                <h2 class="portfolio-heading">Inspiration has no Borders</h2>
+                <p class="portfolio-text">Веб-сайт</p>
+              </div>
             </li>
 
             <li class="list-portfolio-item">
@@ -117,14 +139,18 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-heading">Видання Limited Edition</h2>
-              <p class="portfolio-text">Дизайн</p>
+              <div class="portfolio-card">
+                <h2 class="portfolio-heading">Видання Limited Edition</h2>
+                <p class="portfolio-text">Дизайн</p>
+              </div>
             </li>
 
             <li class="list-portfolio-item">
               <img src="./images/work-sample-8.jpg" alt="Проєкт LAB" width="370" height="294" />
-              <h2 class="portfolio-heading">Проєкт LAB</h2>
-              <p class="portfolio-text">Маркетинг</p>
+              <div class="portfolio-card">
+                <h2 class="portfolio-heading">Проєкт LAB</h2>
+                <p class="portfolio-text">Маркетинг</p>
+              </div>
             </li>
 
             <li class="list-portfolio-item">
@@ -134,8 +160,10 @@
                 width="370"
                 height="294"
               />
-              <h2 class="portfolio-heading">Growing Business</h2>
-              <p class="portfolio-text">Додаток</p>
+              <div class="portfolio-card">
+                <h2 class="portfolio-heading">Growing Business</h2>
+                <p class="portfolio-text">Додаток</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -143,11 +171,11 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" lang="en" class="logo">
+        <a href="./index.html" lang="en" class="logo-footer">
           <span class="logo-start">Web</span><span class="logo-bottom">Studio</span>
         </a>
         <address class="footer-address">
-          <ul class="list">
+          <ul class="list-footer">
             <li class="list-item-footer">
               <a href="https://goo.gl/maps/6sADgCMxTC2w9MVP9" class="link-map"
                 >м. Київ, пр-т Лесі Українки, 26</a

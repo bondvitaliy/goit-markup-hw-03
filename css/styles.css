@@ -127,7 +127,7 @@ ol {
   font-style: normal;
 }
 
-.logo,
+.logo-footer,
 .logo-header {
   font-family: 'Raleway';
   font-weight: 700;
@@ -293,6 +293,8 @@ ol {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  margin-bottom: 4px;
 }
 
 .portfolio-text {
@@ -302,39 +304,54 @@ ol {
   letter-spacing: 0.03em;
 }
 
-.footer > .container > .footer-address > .list {
+.list-footer {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   flex-flow: column wrap;
-  padding-top: 40px;
-  padding-bottom: 43px;
 }
 
 .list.button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 37px;
+
+  margin-bottom: 50px;
 }
 
-.button-filter:not(last-child) {
+.list-button-item:not(:last-child) {
   margin-right: 8px;
 }
 
-.list-portfolio-item {
+/* .list-portfolio-item {
   flex-basis: 33.333333%;
-}
+} */
 
 .list.samples {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 67px;
+  gap: 30px;
 }
 
-.footer > .container > .logo {
+/* .footer > .container > .logo {
   padding-top: 60px;
+} */
+
+/* .logo-footer {
+  padding-top: 60px;
+} */
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.list-item-footer:first-child {
+  margin-top: 20px;
+}
+
+.list-item-footer:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .hidden {
@@ -356,4 +373,15 @@ ol {
 
 .about {
   padding-top: 0;
+}
+
+.team-card {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.portfolio-card {
+  padding: 20px 24px;
+  border: solid #eeeeee;
+  border-width: 0 1px 1px 1px;
 }
