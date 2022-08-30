@@ -31,6 +31,8 @@ ol {
 
 .container {
   width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section {
@@ -52,10 +54,38 @@ ol {
   color: var(--color-hd);
 }
 
+.list-nav-item:not(last-child) {
+  margin-right: 50px;
+}
+
 .link-contact:hover,
 .link-contact:focus {
   color: var(--brand-color);
 }
+
+/* .list-contact-item-top:not(last-child) {
+  margin-left: 344px;
+} */
+
+.list-contact-item-top:last-child {
+  margin-left: 50px;
+}
+
+.list-contact-item-top:first-child {
+  margin-left: 200px;
+}
+
+/* .link-contact {
+  display: block;
+} */
+
+/* .link-contact.mail {
+  margin-left: 344px;
+} */
+
+/* .link-contact.tel {
+  padding-right: 50px;
+} */
 
 .button-filter:hover,
 .button-filter:focus {
@@ -117,8 +147,9 @@ ol {
   color: var(--brand-color);
 }
 
-.logo-end {
+.logo-top {
   color: #000000;
+  margin-right: 90px;
 }
 
 .logo-bottom {
@@ -130,28 +161,52 @@ ol {
   border-bottom: 1px solid #ececec;
 }
 
+.header > .container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 .hero {
   background-color: var(--bg-add-color);
 }
 
 .index-hero {
   color: var(--color-add-hd);
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  margin-bottom: 30px;
+  margin-top: 0;
+  padding: 0;
 }
 
 .button-hero {
   background-color: var(--brand-color);
-  cursor: pointer;
+  color: var(--color-add-hd);
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: var(--color-add-hd);
+  text-align: center;
+
+  padding: 10px 32px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero > .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .about {
@@ -214,7 +269,14 @@ ol {
 }
 
 .list {
+  display: flex;
   list-style: none;
+}
+
+.list-specifity-item:not(last-child),
+.list-about-item:not(last-child),
+.list-team-item:not(last-child) {
+  margin-right: 30px;
 }
 
 .portfolio {
@@ -234,4 +296,39 @@ ol {
   font-size: 16px;
   line-height: 1.888;
   letter-spacing: 0.03em;
+}
+
+.footer > .container > .footer-address > .list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-flow: column wrap;
+  padding-top: 40px;
+  padding-bottom: 43px;
+}
+
+.list.button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 37px;
+}
+
+.button-filter:not(last-child) {
+  margin-right: 8px;
+}
+
+.list-portfolio-item {
+  flex-basis: 33.333333%;
+}
+
+.list.samples {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 67px;
+}
+
+.footer > .container > .logo {
+  padding-top: 60px;
 }
