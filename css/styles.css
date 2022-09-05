@@ -67,7 +67,7 @@ ol {
   margin-right: 50px;
 }
 
-.link-contact.tel {
+.list-contact-item:last-child {
   margin-left: 50px;
 }
 
@@ -125,6 +125,7 @@ ol {
 
 .footer-address {
   font-style: normal;
+  margin-top: 20px;
 }
 
 .logo-footer,
@@ -338,7 +339,7 @@ ol {
 } */
 
 /* .logo-footer {
-  padding-top: 60px;
+  margin-bottom: 20px;
 } */
 
 .footer {
@@ -346,17 +347,26 @@ ol {
   padding-bottom: 60px;
 }
 
-.list-item-footer:first-child {
+/* .list-item-footer:first-child {
   margin-top: 20px;
-}
+} */
 
 .list-item-footer:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.hidden {
-  display: none;
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .list-about-heading {
